@@ -1,0 +1,62 @@
+# basics_on_led
+# blinks in multiples of the number 2
+int led = 12;
+int a=1;
+int i = 1;
+int j = 1;
+int k=1;
+int l=1;
+int m=1;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(led, OUTPUT);
+  digitalWrite(led, LOW);
+  
+
+
+}
+
+void loop() {
+for(a;a<3;a++)
+{
+  for (i; i < 3; i++)
+  { digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+    delay(500);
+  }
+  delay(2000);
+  for (j; j < 5; j++)
+  {
+    digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+    delay(500);
+  }
+  delay(2000);
+  for(k;k<7;k++)
+  {
+     digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+    delay(500);
+  }
+  delay(2000);
+  for (l; l < 9; l++)
+  {
+    digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+    delay(500);
+  }
+  delay(2000);
+  for (m; m < 11; m++)
+  {
+    digitalWrite(led, HIGH);
+    delay(500);
+    digitalWrite(led, LOW);
+    delay(500);
+  }
+}
+}
